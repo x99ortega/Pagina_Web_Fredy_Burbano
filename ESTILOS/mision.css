@@ -1,0 +1,97 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+header {
+  background-color: #2e92f6;
+  padding: 15px;
+  color: white;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #2c3e50;
+}
+
+
+.parrafos, .proyectos, .valores {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  width: 80%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.parrafos {
+  background-color: #ffe6b3;
+  text-align: justify;
+}
+
+.proyectos {
+  background-color: #d9e6f2;
+  text-align: justify;
+}
+
+.valores {
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+  color: #2e92f6;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  background-color: #339966;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}

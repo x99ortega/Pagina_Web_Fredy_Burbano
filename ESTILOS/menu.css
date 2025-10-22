@@ -1,0 +1,30 @@
+nav {
+  background-color: #2e92f6; /* Azul oscuro */
+  padding: 10px;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none; /* Sin viñetas */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Alinea en fila */
+  justify-content: flex-start; /* Pegados a la izquierda */
+}
+
+nav li {
+  margin: 0 15px; /* Espacio entre los elementos */
+}
+
+nav a {
+  text-decoration: none; /* Quita subrayado */
+  color: white; /* Texto blanco */
+  font-weight: bold; /* Negrita */
+  padding: 10px 15px; /* Relleno tipo botón */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Efecto hover */
+}
+
+nav a:hover {
+  background-color: #2c3e50; /* Cambio de color al pasar el mouse */
+}
